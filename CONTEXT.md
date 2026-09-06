@@ -116,3 +116,31 @@ Always:
 
 \- do not add dependencies without approval
 
+
+
+\## Git workflow
+
+
+
+Main branch:
+
+\- stable version
+
+
+
+Feature branches:
+
+\- feature/\*
+
+
+
+Current branch:
+
+\- feature/hero-redesign
+
+
+
+Important tags:
+
+\- hero-v1
+
