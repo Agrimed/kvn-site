@@ -94,9 +94,15 @@ Completed:
 
 
 
-Current task:
+Current task
 
-Hero redesign.
+
+
+Project foundation:
+
+Header + reusable UI components
+
+
 
 
 
