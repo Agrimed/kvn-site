@@ -60,7 +60,7 @@ export const galleryPhotos: GalleryPhoto[] =
             return {
                 id: getFileName(path)
                     .replace(/\.[^.]+$/, "")
-                    .replace(/[^a-zA-Z0-9а-яА-ЯёЁ-_]/g, "-"),
+                    .replace(/[^a-zA-Z0-9а-яА-ЯёЁ_-]/g, "-"),
                 src,
                 alt: photoName
                     ? `${photoName} — команда КВН «Мифы»`

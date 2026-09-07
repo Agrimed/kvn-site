@@ -103,9 +103,17 @@ function GalleryLightbox({
                     type="button"
                     onClick={onClose}
                     aria-label="Закрыть галерею"
-                    className="flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/[0.05] text-xl text-white transition hover:border-amber-300/60 hover:text-amber-300 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-300"
+                    className="group relative flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/[0.05] transition hover:border-amber-300/60 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-300"
                 >
-                    <span aria-hidden="true">×</span>
+                    <span
+                        className="absolute left-1/2 top-1/2 h-px w-3.5 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-white transition-colors group-hover:bg-amber-300"
+                        aria-hidden="true"
+                    />
+
+                    <span
+                        className="absolute left-1/2 top-1/2 h-px w-3.5 -translate-x-1/2 -translate-y-1/2 -rotate-45 bg-white transition-colors group-hover:bg-amber-300"
+                        aria-hidden="true"
+                    />
                 </button>
             </div>
 

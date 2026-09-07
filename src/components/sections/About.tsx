@@ -121,10 +121,12 @@ function About() {
                     <span>{item.title}</span>
 
                     <span
-                      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/15 text-xl font-light text-amber-300 transition-all duration-300 group-open:rotate-45 group-open:border-amber-300/50 group-open:bg-amber-300/10"
+                      className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/15 transition-all duration-300 group-open:rotate-45 group-open:border-amber-300/50 group-open:bg-amber-300/10"
                       aria-hidden="true"
                     >
-                      +
+                      <span className="absolute left-1/2 top-1/2 h-px w-3 -translate-x-1/2 -translate-y-1/2 bg-amber-300" />
+
+                      <span className="absolute left-1/2 top-1/2 h-3 w-px -translate-x-1/2 -translate-y-1/2 bg-amber-300" />
                     </span>
                   </summary>
 
