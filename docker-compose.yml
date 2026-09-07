@@ -1,13 +1,10 @@
 services:
   frontend:
-    image: kvn-site-dev
+    image: kvn-site:latest
     container_name: kvn-site
     build:
       context: .
       dockerfile: Dockerfile
+    restart: unless-stopped
     ports:
-      - "5173:5173"
-    volumes:
-      - .:/app
-      - /app/node_modules
-    command: npm run dev -- --host 0.0.0.0
+      - "127.0.0.1:8080:80"
