@@ -16,7 +16,7 @@ type Team = {
 export const team: Team = {
   name: "Мифы",
   university: "Команда КВН Университета ИТМО",
-  slogan: "Въебали все игры в сезоне",
+  slogan: "На сайте будут очень пафосные заголовки",
   hero: {
     primaryAction: {
       label: "Ближайшее выступление",

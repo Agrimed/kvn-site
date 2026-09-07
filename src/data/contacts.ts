@@ -27,7 +27,7 @@ export const contactsSection: ContactsSection = {
   imageAlt:
     "Представитель команды КВН «Мифы» в сценическом костюме",
 
-  imageCaption: "Великий байбкодер",
+  imageCaption: "Великий вайбкодер",
 
   contacts: [
     {
